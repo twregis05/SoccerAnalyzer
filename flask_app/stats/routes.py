@@ -1,9 +1,9 @@
-from flask import Flask, Blueprint
+from flask import Flask, Blueprint, redirect, url_for, render_template
 
 stats = Blueprint("stats", __name__)
 
 
-@stats.route('/')
+@stats.route('/', methods=["GET", "POST"])
 def hello():
-    return "Hello Soham"
+    return render_template("index.html")
 
