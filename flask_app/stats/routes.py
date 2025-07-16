@@ -4,6 +4,6 @@ stats = Blueprint("stats", __name__)
 
 
 @stats.route('/', methods=["GET", "POST"])
-def hello():
+def index():
     return render_template("index.html")
 
