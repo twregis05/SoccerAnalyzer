@@ -1,4 +1,7 @@
 sim_venv
 sohamvenv
 venv
-__pycache__
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
