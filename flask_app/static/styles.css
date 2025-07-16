@@ -828,7 +828,7 @@ html {
   overflow-x: hidden;
   --tw-bg-opacity: 1;
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-  --tw-gradient-from: #076653 var(--tw-gradient-from-position);
+  --tw-gradient-from: #11c300 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #06231D var(--tw-gradient-to-position);
